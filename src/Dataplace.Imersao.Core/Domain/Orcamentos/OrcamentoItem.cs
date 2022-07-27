@@ -36,7 +36,6 @@ namespace Dataplace.Imersao.Core.Domain.Orcamentos
         public decimal Total { get; private set; }
         public OrcamentoItemStatusEnum Situacao { get; private set; }
 
-
         #region alteração de status
         public void DefinirStiaucao(OrcamentoItemStatusEnum situacao)
         {
